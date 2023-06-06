@@ -32,8 +32,8 @@ function Review() {
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-[5rem]'>
             {userData.map((data,key)=>(
                 <div key={data.name} className='text-center'>
-                    <img className='h-[100px] w-[100px] inline-block rounded-full' src={data.img} alt={data.name} />
-                    <p className='py-[5rem]'>{data.content}</p>
+                    <img className='h-[200px] w-[200px] inline-block rounded-full' src={data.img} alt={data.name} />
+                    <p className='py-[3rem] font-bold'>{data.content}</p>
                     <h4 className='font-bold'>{data.name}</h4>
                     <p className='text-slate-400'>{data.position}</p>
                 </div>
