@@ -9,6 +9,7 @@ import Header from './components/Header'
 import SectionsOne from './components/SectionsOne'
 import SectionsTwo from './components/SectionsTwo'
 import SectionsThree from './components/SectionsThree'
+import Review from './components/Review'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <SectionsOne/>
       <SectionsTwo/>
       <SectionsThree/>
+      <Review/>
     </div>
   )
 }
