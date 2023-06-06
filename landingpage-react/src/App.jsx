@@ -10,6 +10,7 @@ import SectionsOne from './components/SectionsOne'
 import SectionsTwo from './components/SectionsTwo'
 import SectionsThree from './components/SectionsThree'
 import Review from './components/Review'
+import Gallery from './components/Gallery'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,8 @@ function App() {
       <SectionsTwo/>
       <SectionsThree/>
       <Review/>
+      <Gallery/>
+
     </div>
   )
 }
