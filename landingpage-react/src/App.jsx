@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import SectionsOne from './components/SectionsOne'
 import SectionsTwo from './components/SectionsTwo'
+import SectionsThree from './components/SectionsThree'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <SectionsOne/>
       <SectionsTwo/>
+      <SectionsThree/>
     </div>
   )
 }

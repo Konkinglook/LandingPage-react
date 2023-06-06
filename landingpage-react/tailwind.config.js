@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'header': "url('../src/assets/img/image-header.jpg')"
+        'header': "url('../src/assets/img/image-header.jpg')",
+        'sec-three-left': "url('../src/assets/img/image-graphic-design.jpg')",
+        'sec-three-right': "url('../src/assets/img/image-photography.jpg')"
       }
     },
   },
