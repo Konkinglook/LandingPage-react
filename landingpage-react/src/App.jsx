@@ -11,6 +11,7 @@ import SectionsTwo from './components/SectionsTwo'
 import SectionsThree from './components/SectionsThree'
 import Review from './components/Review'
 import Gallery from './components/Gallery'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
       <SectionsThree/>
       <Review/>
       <Gallery/>
+      <Footer/>
 
     </div>
   )
